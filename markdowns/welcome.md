@@ -8,10 +8,10 @@ Many developers/organizations thinking of migrating their exiting application to
 
 ![DOsDonts](http://1.bp.blogspot.com/-hYypFLqS9kU/VlV5RznNIrI/AAAAAAAABqs/qUSZu4zwBcE/s1600/Do_Dont.png)
 
-1. Business logic should be the part of Model only
+- Business logic should be the part of Model only
 Before start code on MVC we should make understand that Business logic should be reside in Model only, it will add your security and code duplication can be avoided. The view load faster as there is no business present in view.
 
-2.  Use only specific view engine
+-  Use only specific view engine
 View engines are used to create HTML markup from your view, it is the combination of HTML and programming code, ASP.NET has its own asp.net engine where as ASP.NET MVC has its razor engine. You should only use your specified view engine, it will increase application performance, see below snippet 
 
 ```javascript
